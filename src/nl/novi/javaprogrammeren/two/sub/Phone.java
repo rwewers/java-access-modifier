@@ -1,5 +1,6 @@
 package nl.novi.javaprogrammeren.two.sub;
 
+
 public class Phone {
     private String brand;
 
@@ -7,7 +8,7 @@ public class Phone {
         this.brand = brand;
     }
 
-    String getBrand() {
+    public String getBrand() {
         return brand;
     }
 }
